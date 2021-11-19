@@ -29,6 +29,3 @@ int main(void) {
    printf(" Difference between the two is %f\n",diff);
 
 }
-
-/*The sums will be different. This is likely due to floating point arithmetic behaving differently
-when incrementing and decrementing, i.e the machine is rounding in a different order. */
